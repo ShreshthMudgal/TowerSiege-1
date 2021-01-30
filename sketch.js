@@ -113,6 +113,9 @@ function draw(){
     
     slingshot.display();
     drawSprites();
+    fill(239,228,210)
+    textSize(10)
+    text("Throw the polygon at the bricks to make them fall",450,100)
 }
 
 function mouseDragged(){
